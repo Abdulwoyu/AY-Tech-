@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AY Tech - Web Developer & Teacher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600">AY Tech</h1>
+      <nav>
+        <a href="#about" class="px-3 hover:text-blue-500">About</a>
+        <a href="#services" class="px-3 hover:text-blue-500">Services</a>
+        <a href="#portfolio" class="px-3 hover:text-blue-500">Portfolio</a>
+        <a href="#contact" class="px-3 hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white text-center px-4">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 animate-bounce">AY Tech</h2>
+      <p class="text-lg md:text-2xl mb-6">I create beautiful websites & teach web development</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-bold shadow-lg hover:bg-gray-200">Get in Touch</a>
+
+      <!-- New: Visit My Website Button -->
+      <div class="mt-6">
+        <a href="https://yourusername.github.io/ay-tech" target="_blank" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-bold shadow-lg hover:bg-yellow-500">
+          Visit My Website
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-6">About Me</h3>
+    <p class="text-center max-w-2xl mx-auto text-lg">
+      Hi! I'm <strong>AY Tech</strong>, a passionate web developer and educator. I specialize in building modern, responsive websites and teaching others the art of web development. My goal is to make coding fun and accessible for everyone.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-4">Website Creation</h4>
+          <p>I build modern, responsive, and SEO-friendly websites for businesses and individuals.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-4">HTML & CSS Training</h4>
+          <p>Learn the foundations of web design with hands-on lessons in HTML and CSS.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-4">JavaScript Coaching</h4>
+          <p>Master JavaScript and bring your websites to life with interactive features.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-10">Portfolio</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded-xl shadow">
+        <img src="https://i.ibb.co/NnYw4Jz/business-site.jpg" alt="Business Website" class="rounded">
+        <h4 class="mt-4 font-semibold">Business Website</h4>
+        <p>A professional website for a corporate business.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow">
+        <img src="https://i.ibb.co/M8jxWrY/blog-site.jpg" alt="Blog" class="rounded">
+        <h4 class="mt-4 font-semibold">Blog</h4>
+        <p>A modern, responsive blog with engaging content.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow">
+        <img src="https://i.ibb.co/dsT2Gxw/ecommerce-site.jpg" alt="E-commerce" class="rounded">
+        <h4 class="mt-4 font-semibold">E-commerce</h4>
+        <p>An e-commerce site with a user-friendly interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-6">Contact Me</h3>
+      <div class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow">
+        <p class="mb-4"><strong>Phone:</strong> 07038084674</p>
+        <p class="mb-6"><strong>Email:</strong> olanrewajuabdulqoyumayomide@gmail.xom</p>
+        <form class="space-y-4">
+          <input type="text" placeholder="Your Name" class="w-full border p-3 rounded" required>
+          <input type="email" placeholder="Your Email" class="w-full border p-3 rounded" required>
+          <textarea placeholder="Your Message" class="w-full border p-3 rounded" rows="5" required></textarea>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 AY Tech. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
